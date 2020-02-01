@@ -27,10 +27,10 @@
 
 </style>
 
-<div class="columns">
+<div class="columns is-mobile">
     <div class="column">
         <div class="field">
-            <label class="label">For X^2</label>
+            <label class="label">For X<sup>2</sup></label>
             <div class="control">
                 <input class="input" type="text" placeholder="Text input" on:input="{hasInputA}">
             </div>

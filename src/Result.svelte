@@ -56,17 +56,17 @@
 <section class="hero is-light is-medium">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">
-        {`${a}x^2 + ${b}x + ${c} = 0`}
+      <h1 class="is-size-1-mobile">
+        {a}x<sup>2</sup> + {`${b}x + ${c} = 0`}
       </h1>
       <h2 class="subtitle">{description}</h2>
       {#if solutions}
-        <div class="columns">
+        <div class="columns is-mobile">
            {#each solutions as solution, i (i) }
                 <div class="column">
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="title is-size-1">x = {solution.toFixed(1)}</h1>
+                            <h1 class="is-size-1 is-size-3-mobile">x = {solution.toFixed(1)}</h1>
                         </div>
                     </div>
                 </div>

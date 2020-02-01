@@ -18,14 +18,17 @@
 </script>
 
 <style>
-	
+	.container {
+		margin-top: 1rem;
+	}
+
 </style>
 
 
 <div class="container">
 	<FormulaInput 
-	on:inputA="{setValue}"
-	on:inputB="{setValue}"
-	on:inputC="{setValue}"/>
+		on:inputA="{setValue}"
+		on:inputB="{setValue}"
+		on:inputC="{setValue}"/>
 	<Result data="{data}"/>
 </div>
