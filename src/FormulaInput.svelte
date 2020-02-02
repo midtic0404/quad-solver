@@ -32,7 +32,7 @@
         <div class="field">
             <label class="label">For X<sup>2</sup></label>
             <div class="control">
-                <input class="input" type="text" placeholder="Text input" on:input="{hasInputA}">
+                <input class="input" type="text" placeholder="Any Number" on:input="{hasInputA}">
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@
         <div class="field">
             <label class="label">For X</label>
             <div class="control">
-                <input class="input" type="text" placeholder="Text input" on:input="{hasInputB}">
+                <input class="input" type="text" placeholder="Any Number" on:input="{hasInputB}">
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
         <div class="field">
             <label class="label">For Constant</label>
             <div class="control">
-                <input class="input" type="text" placeholder="Text input" on:input="{hasInputC}">
+                <input class="input" type="text" placeholder="Any Number" on:input="{hasInputC}">
             </div>
         </div>
     </div>

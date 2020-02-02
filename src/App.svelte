@@ -18,17 +18,19 @@
 </script>
 
 <style>
-	.container {
-		margin-top: 1rem;
+	.app {
+		font-family:  'Lato', sans-serif;
 	}
 
 </style>
 
-
-<div class="container">
-	<FormulaInput 
-		on:inputA="{setValue}"
-		on:inputB="{setValue}"
-		on:inputC="{setValue}"/>
-	<Result data="{data}"/>
+<div class="app">
+	<div class="container is-fluid">
+		<FormulaInput 
+			on:inputA="{setValue}"
+			on:inputB="{setValue}"
+			on:inputC="{setValue}"/>
+		<Result data="{data}"/>
+	</div>
 </div>
+
