@@ -27,9 +27,7 @@
 <div class="app">
 	<div class="container is-fluid">
 		<FormulaInput 
-			on:inputA="{setValue}"
-			on:inputB="{setValue}"
-			on:inputC="{setValue}"/>
+			on:input="{setValue}"/>
 		<Result data="{data}"/>
 	</div>
 </div>

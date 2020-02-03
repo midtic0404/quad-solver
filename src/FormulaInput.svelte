@@ -8,17 +8,17 @@
 
     function hasInputA(event) {
         a = +event.target.value;
-        dispatch('inputA', {id: 'a', value: a});
+        dispatch('input', {id: 'a', value: a});
     }
 
     function hasInputB(event) {
         b = +event.target.value;
-        dispatch('inputB', {id: 'b', value: b});
+        dispatch('input', {id: 'b', value: b});
     }
 
     function hasInputC(event) {
         c = +event.target.value;
-        dispatch('inputC', {id: 'c', value: c});
+        dispatch('input', {id: 'c', value: c});
     }
 
 </script>
