@@ -24,7 +24,6 @@
 </script>
 
 <style>
-
 </style>
 
 <div class="columns is-mobile">

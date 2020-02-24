@@ -21,7 +21,6 @@
 	.app {
 		font-family:  'Lato', sans-serif;
 	}
-
 </style>
 
 <div class="app">

@@ -44,19 +44,24 @@
         align-items: center;
     }
 
-    h1 {
-        font-size:  6rem;
+    .formula{
+        font-size:  2rem;
+    }
+
+    .result {
+        font-size: 1.5rem;
     }
 
     .container {
         text-align: center;
     }
+
 </style>
 
-<section class="hero is-light is-medium">
+<section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
-      <h1 class="is-size-1-mobile">
+      <h1 class="formula">
         {a}x<sup>2</sup> + {`${b}x + ${c} = 0`}
       </h1>
       <h2 class="subtitle">{description}</h2>
@@ -66,7 +71,7 @@
                 <div class="column">
                     <div class="card">
                         <div class="card-content">
-                            <h1 class="is-size-1 is-size-3-mobile">x = {solution.toFixed(1)}</h1>
+                            <h1 class="result">x = {solution.toFixed(1)}</h1>
                         </div>
                     </div>
                 </div>
